@@ -4,7 +4,7 @@
 	"name": "Colored Box (mobile support_noflag)",
 	"description": "A colored box for testing mobile support",
 	"newInstancePrefix": "ColoredBox",
-	"icon": "https://github.wdf.sap.corp/pages/orca/custom-widget-samples/coloredboxmobile/icon.png",
+	"icon": "https://37wh5r.github.io/custom-widget-samples/coloredboxmobile/icon.png",
 	"vendor": "SAP",
 	"eula": "",
 	"license": "",
@@ -12,21 +12,21 @@
 		{
 			"kind": "main",
 			"tag": "com-sap-sample-coloredbox-mobile",
-			"url": "https://github.wdf.sap.corp/pages/orca/custom-widget-samples/coloredboxmobile/coloredbox_main.js",
+			"url": "https://37wh5r.github.io/custom-widget-samples/coloredboxmobile/coloredbox_main.js",
 			"integrity": "sha256-oqsfB2Q6HbuxKuI4sbNL6RQSHC4gHOxGmLwqiYIK6EA=",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "styling",
 			"tag": "com-sap-sample-coloredbox-styling-mobile",
-			"url": "https://github.wdf.sap.corp/pages/orca/custom-widget-samples/coloredboxmobile/coloredbox_styling.js",
+			"url": "https://37wh5r.github.io/custom-widget-samples/coloredboxmobile/coloredbox_styling.js",
 			"integrity": "sha256-GTnm+Uc75SAGTTjBEr1QqtwXjXVlD6L4MMZbM0z2Va0=",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "builder",
 			"tag": "com-sap-sample-coloredbox-builder-mobile",
-			"url": "https://github.wdf.sap.corp/pages/orca/custom-widget-samples/coloredboxmobile/coloredbox_builder.js",
+			"url": "https://37wh5r.github.io/custom-widget-samples/coloredboxmobile/coloredbox_builder.js",
 			"integrity": "sha256-+5erR8Ay33ebfRPYe9KTfl4hlfBgQoKaZY1lTaacaWQ=",
 			"ignoreIntegrity": true
 		}
