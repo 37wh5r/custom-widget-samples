@@ -56,7 +56,7 @@
 			console.log(`main[${this._props["widgetName"]}]: onCustomWidgetBeforeUpdate(${JSON.stringify(changedProps)})`);
 			// in view mode, depending on whether we are running on a mobile device or not, register an appropriate handler for random color changes
 			if (this._props["designMode"] === false && !this._randomColorHandlerRegistered) {
-				this._props["mobileMode"] === false ? this.registerShiftClickHandler() : this.registerTwoFingerTapHandler();
+				this._props["mobileMode"] && this._props["mobileMode"] === true ? this.registerTwoFingerTapHandler() : this.registerShiftClickHandler();
 				this._randomColorHandlerRegistered = true;
 			}
 		}
